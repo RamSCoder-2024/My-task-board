@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import Modal from './Modal';
-import './App.css'
+import Modal from './Modal/Modal';
+import './index.css'
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <main className='outline mt-10 p-4  w-full'>
+      <main className='outline mt-10 p-4 w-full'>
         <h1 className='text-4xl text-left'>My task board</h1>
         <p className='text-left mb-7'>Tasks to keep organised</p>
         {/*  TAREAS  */}
@@ -28,7 +28,7 @@ function App() {
           <h2 className='font-bold text-xl p-3'>Add new task</h2>
         </div>
         {isOpen && (
-          <Modal closeModal={closeModal}/>
+          <Modal closeModal={closeModal} />
         )}
       </main>
     </>
