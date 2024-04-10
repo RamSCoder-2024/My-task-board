@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Modal from './Modal/Modal';
 import './index.css'
 
-function App() {
+const App: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const openModal = () => {
