@@ -8,8 +8,10 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* color: rgba(255, 255, 255, 0.87); */
+  color: #333333;
+  background-color: #FFFFFF;
+  /* background-color: #242424; */
 }
 #root {
   max-width: 1280px;
@@ -19,4 +21,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+::-webkit-scrollbar {
+  width: 8px; /* Ancho del scrollbar */
+}
+
+/* Estilo para el track del scrollbar */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color de fondo del track */
+}
+
+/* Estilo para el thumb (manija) del scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color del thumb */
+  border-radius: 4px; /* Borde redondeado del thumb */
+}
+
+/* Cambiar el color del thumb cuando se desplaza */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color del thumb al pasar el mouse sobre él */
 }
