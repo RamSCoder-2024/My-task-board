@@ -5,4 +5,4 @@ Link:
 Soy un nuevo cambio y un nuevo pull request pero con otro metodo de fusion.
 Soy un segundo cambio para ver el historio del pull request de otro dev.
 
-Hola soy Rams, subi el formulario y ya conecte con MySQL , revisa mis cambios porfavo;
+Hola soy Rams, subi el formulario y ya conecte con MySQL , revisa mis cambios porfavor;
